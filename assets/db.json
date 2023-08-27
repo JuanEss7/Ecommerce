@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6206251_823x.jpg?v=1661520210",
+          "name": "negro",
+          "color": "#182028"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6206240_600x.jpg?v=1661520210",
+          "name": "Verde",
+          "color": "#354836"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6206281_600x.jpg?v=1661520210",
+          "name": "blanco",
+          "color": "#fff"
+        }
+      ],
+      "name": "Iphone 13",
+      "storage": ["128 GB", "256 GB"],
+      "price": 750
+    },
+    {
+      "id": 2,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376495_600x.jpg?v=1660429014",
+          "name": "Azul",
+          "color": "#99b4cd"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376568_600x.jpg?v=1660428770",
+          "name": "Oro",
+          "color": "#fae6cb"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376550_600x.jpg?v=1660429644",
+          "name": "Verde",
+          "color": "#586958"
+        }
+      ],
+      "name": "Iphone 13 Pro",
+      "storage": ["128 GB", "256 GB"],
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376532_600x.jpg?v=1660430589",
+          "name": "Gris",
+          "color": "#5a5854"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376504_600x.jpg?v=1660429882",
+          "name": "Plata",
+          "color": "#eaebe6"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6376541_600x.jpg?v=1660430119",
+          "name": "Oro",
+          "color": "#f2dfc7"
+        }
+      ],
+      "name": "Iphone 13 Pro max",
+      "storage": ["256 GB", "512 GB", "1 TB"],
+      "price": 1100
+    },
+    {
+      "id": 5,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7379875_101eb591-c845-4bd1-87f4-5dd4767d8678_600x.jpg?v=1678641273",
+          "name": "Azul",
+          "color": "#182028"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7379895_25b13c65-1349-4c47-b0e9-ea2671b0d45c_600x.jpg?v=1678641627",
+          "name": "Violeta",
+          "color": "#e6dfed"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/iPhone_14_Yellow_PDP_Image_Position-1A_COES_600x.jpg?v=1678215692",
+          "name": "Amarillo",
+          "color": "#fae367"
+        }
+      ],
+      "name": "Iphone 14",
+      "storage": ["128 GB", "256 GB"],
+      "price": 800
+    },
+    {
+      "id": 6,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7379978_600x.jpg?v=1673376870",
+          "name": "Morado",
+          "color": "#4f4856"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7380002_600x.jpg?v=1673378255",
+          "name": "negro",
+          "color": "#3b3937"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7379992_600x.jpg?v=1673377767",
+          "name": "Blanco",
+          "color": "#f1f3f2"
+        }
+      ],
+      "name": "Iphone 14 Pro",
+      "storage": ["256 GB", "512 GB"],
+      "price": 1000
+    },
+    {
+      "id": 7,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7380043_600x.jpg?v=1673373173",
+          "name": "negro",
+          "color": "#5a5854"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7380022_600x.jpg?v=1673374084",
+          "name": "Oro",
+          "color": "#f4e7cb"
+        },
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-7380012_600x.jpg?v=1673373602",
+          "name": "Morado",
+          "color": "#494250"
+        }
+      ],
+      "name": "Iphone 14 Pro Max",
+      "storage": ["256 GB", "512 GB", "1 TB"],
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "color": [
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-6590264_600x.jpg?v=1660659928",
+          "name": "negro",
+          "color": "#1c1b20"
+        },
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-6590683_600x.jpg?v=1660659928",
+          "name": "Rojo",
+          "color": "#e23738"
+        },
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-6590246_600x.jpg?v=1660659928",
+          "name": "Violeta",
+          "color": "#b1a8df"
+        }
+      ],
+      "name": "Iphone 12",
+      "storage": ["128 GB"],
+      "price": 750
+    },
+    {
+      "id": 8,
+      "color": [
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-111574_600x.jpg?v=1660434699",
+          "name": "negro",
+          "color": "#5a5854"
+        },
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-111646_600x.jpg?v=1660434699",
+          "name": "Rojo",
+          "color": "#c31b36"
+        }
+      ],
+      "name": "Iphone 11",
+      "storage": ["128 GB"],
+      "price": 700
+    },
+    {
+      "id": 9,
+      "color": [
+        {
+          "img": "https://mac-center.com/cdn/shop/products/IMG-6348010_600x.jpg?v=1660435090",
+          "name": "Azul",
+          "color": "#182028"
+        }
+      ],
+      "name": "Iphone SE",
+      "storage": ["128 GB"],
+      "price": 500
+    }
+  ]
+}

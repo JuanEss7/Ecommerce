@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1.3rem;
+  position: relative;
+}
+.header h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.header .car{
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+.header .car .icon img{
+  width: 30px;
+  height: 30px;
+}
+.header .car .item{
+  position: absolute;
+  padding: 2px;
+  top: -6px;
+  left: 28px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.modal{
+  padding: .5rem;
+  position: absolute;
+  width: 40%;
+  min-height: 100vh;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  background-color: #f4f4f7;
+  z-index: 0;
+  opacity: 0;
+  transition: all .2s ease;
+}
+.modal.open{
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+}
+.modal .modal-p{
+  width: 100%;
+  height: max-content;
+}
+.modal .modal-product{
+  box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .2rem .3rem;
+  margin-top: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.modal-product img{
+  width: 50px;
+  height: 50px;
+}
+.modal-product .div-model{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: .8rem;
+  font-weight: 400;
+}
+.modal-product .modal-count{
+  display: flex;
+  align-items: center;
+}
+
+ .modal-count button, .btn-delete {
+    width: min-content;
+    height: min-content;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ .modal-count button img{
+  width: 20px;
+ }
+ .btn-delete img{
+  width: 20px;
+  height: 20px;
+ }
+
+.modal .modal-btn{
+  width: min-content;
+  align-self: flex-end;
+  margin: .3rem .7rem;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+.modal-btn img{
+  width: 30px;
+}
+.modal .buy-product{
+  margin-top: 2rem;
+  border: 1px solid #000;
+  padding: .5rem 3rem;
+  width: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.modal .buy-product:hover{
+  background-color: #000;
+  color: #fff;
+}
+.buy-product p{
+  margin-right: 5px;
+}
+.products{
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 1rem;
+}
+.product{
+  box-shadow: 8px 8px 10px -1px rgba(0,0,0,0.14);
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.product-img{
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: 70%;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+img{
+  width: 100%;
+  height: 80%;
+}
+.product-color{
+  position: absolute;
+  bottom: 0;
+  display:flex;
+  justify-content: space-around;
+}
+.product-color .color{
+  border: 1px solid;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  margin: 0 .2rem;
+  background-color: aquamarine;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+.product-color .color:hover{
+  transform: scale(1.05);
+}
+.product .product-storage{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-storage .storage{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 15%;
+  height: max-content;
+  padding: 2px;
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.product-storage .storage:hover{
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
+.storage.select{
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
+.product .product-title{
+  font-weight: 700;
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+}
+.product .product-price{
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: green;
+}
+.product .product-btn{
+  border: none;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  width: 25%;
+  height: max-content;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .5rem .7rem;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+.product .product-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (min-width:768px) {
+  .header{
+    justify-content: space-between;
+    padding: .5rem 2.3rem;
+  }
+  .modal{
+    width: 28%;
+  }
+  .modal .modal-product{
+    font-size: 1.2rem;
+  }
+  .modal-product img{
+    width: 50px;
+    height: 50px;
+  }
+  .modal-product .div-model{
+    font-size: 1.1rem;
+  }
+
+   .modal-count button img{
+    width: 25px;
+   }
+   .modal .modal-btn{
+    margin: .6rem 1.7rem;
+   }
+   .btn-delete{
+    margin-right: 8px;
+   }
+   .btn-delete img{
+    width: 20px;
+    height: 20px;
+   }
+   .modal .buy-product{
+    width: 30%;
+    gap: 10px;
+   }
+  .product{
+    width: 25%; 
+  }
+  .product-storage .storage{
+    width: 20%;
+  }
+  .product-color .color{
+    width: 25px;
+    height: 25px;
+  }
+  .product .product-btn{
+    width: max-content;
+  }
+}
