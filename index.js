@@ -79,9 +79,8 @@ function products(data) {
     div_product.appendChild(btn);
 
     fragment.appendChild(div_product);
-    btn.addEventListener("click", (e) => {
+    btn.addEventListener("click", () => {
       addCar(div_product);
-      console.log(modal_p.childNodes);
     });
   }
   sectionProducts.appendChild(fragment);
@@ -146,9 +145,9 @@ function modalProduct(img, product, storage = "128 GB", prc) {
   model.textContent = product;
   stg.textContent = storage;
   number.textContent = ctn;
-  btn_bef.innerHTML = `<img src="/public/arrow-left-short.svg">`;
-  btn_next.innerHTML = `<img src="/public/arrow-right-short.svg">`;
-  btn_delete.innerHTML = `<img src="/public/trash.svg">`;
+  btn_bef.innerHTML = `<img src="./public/arrow-left-short.svg">`;
+  btn_next.innerHTML = `<img src="./public/arrow-right-short.svg">`;
+  btn_delete.innerHTML = `<img src="./public/trash.svg">`;
 
   div_model.appendChild(model);
   div_model.appendChild(stg);
