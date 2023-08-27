@@ -1,5 +1,6 @@
 const url = "https://apiproducts-2w26.onrender.com/products";
 let sectionProducts = document.querySelector(".products");
+let btn_buy = document.querySelector(".buy-product");
 let modal = document.querySelector(".modal");
 let modal_p = document.querySelector(".modal-p");
 let open_car = document.querySelector(".icon");
@@ -118,6 +119,17 @@ open_car.addEventListener("click", () => {
 });
 close_car.addEventListener("click", () => {
   modal.classList.toggle("open");
+});
+btn_buy.addEventListener("click", () => {
+  if (modal_p.childNodes.length >= 1) {
+    alert("Pago realizado correctamente");
+    modal_p.innerHTML = "";
+    count = 0;
+    priceProduct();
+    numberProducts();
+  } else {
+    alert("No hay productos en el carrito");
+  }
 });
 
 function modalProduct(img, product, storage = "128 GB", prc) {
